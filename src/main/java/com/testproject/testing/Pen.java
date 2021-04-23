@@ -55,12 +55,6 @@ public class Pen {
         System.out.println(color);
     }
 
-    public static void main(String[] args) {
-        Pen pen = new Pen(5,5);
-        String str = pen.write("a");
-        System.out.println(str);
-
-    }
 
 }
 
