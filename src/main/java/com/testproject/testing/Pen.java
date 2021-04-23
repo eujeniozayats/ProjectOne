@@ -55,6 +55,15 @@ public class Pen {
         System.out.println(color);
     }
 
+    public static void main(String[] args) {
+        Pen pen = new Pen(5,2);
+        String str = pen.write("abcdedsdads");
+        boolean test = pen.isWork();
+        //System.out.println(test);
+        System.out.println(str.substring(0, 5));
+
+    }
+
 
 }
 
